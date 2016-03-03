@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.linea-divisoria {
+  margin: 80px 0px; }
+
+/*  +++MENU NAVEGACION+++  */
+#titulo {
+  color: #966509;
+  font: 24px Felix Titling, Baskerville Old Face;
+  text-shadow: #adafb1 0px 2px 2px; }
+
+.enlace {
+  color: #337AB7;
+  font: 19px Calibri;
+  letter-spacing: 0px;
+  -ms-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  word-space: 0px; }
+  .enlace:hover {
+    text-shadow: #a7a7a7 0px 2px 2px; }
+
+.nav > li > a {
+  display: block;
+  padding: 10px 5px;
+  position: relative; }
+
+.navbar-nav > li > a {
+  padding-bottom: 15px;
+  padding-top: 15px; }
+
+/*  +++FIN MENU NAVEGACION+++  */
+/*  +++CAROUSEL+++  */
+.img-responsive {
+  width: 100%; }
+
+/*  +++FIN CAROUSEL+++  */
+/*  +++SECCIONES+++  */
+.titulo-seccion {
+  font-size: 50px;
+  margin-top: 120px;
+  line-height: 1;
+  letter-spacing: -1px;
+  text-shadow: #7d7c7c 1px 1px 2px; }
+
+ul .vineta {
+  padding-bottom: 10px;
+  text-align: justify; }
+
+.imagen {
+  margin-top: 53px; }
+
+.imagen2 {
+  margin-top: 120px; }
+
+#vision {
+  background: #E8EAFF fixed; }
+
+#values {
+  background-color: #F3E4CE; }
+
+/*  +++FIN SECCIONES+++  */
+/*  +++SERVICIO+++  */
+.servicio {
+  background: url(../images/aduana1.png) center no-repeat fixed;
+  background-size: 100%; }
+
+.titulo-serv {
+  font-size: 50px;
+  letter-spacing: -1px;
+  line-height: 1;
+  margin-top: 120px;
+  text-align: center;
+  text-shadow: #7d7c7c 1px 1px 3px; }
+
+.sub-serv {
+  text-align: center;
+  text-shadow: #7d7c7c 1px 1px 3px; }
+
+.serv-01 {
+  float: left;
+  padding-left: 15px;
+  text-align: justify;
+  width: 48%; }
+  .serv-01 ul {
+    list-style: none; }
+
+.serv-02 {
+  float: right;
+  padding-right: 15px;
+  text-align: justify;
+  width: 48%; }
+  .serv-02 ul {
+    list-style: none;
+    margin-left: 20px; }
+
+/*  +++FIN SERVICIO+++  */
+/*  +++CONTACTO+++  */
+.contacto {
+  background: #001A33; }
+
+.titulo-contacto {
+  color: #614B22;
+  font-family: Felix Titling, Baskerville Old Face;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px #D9D9D9, 1px -1px 2px #D9D9D9, -1px -1px 2px #D9D9D9, -1px 1px 2px #D9D9D9; }
+
+.subtitulo-contacto {
+  color: #004284;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px #FFF, 1px -1px 2px #FFF, -1px -1px 2px #FFF, -1px 1px 2px #FFF; }
+
+.text-cont {
+  color: white; }
+
+footer {
+  background: #022140;
+  text-align: center; }
+
+/*  MENU SOCIAL  */
+.menu-social {
+  margin-top: 20px;
+  padding-left: 0px;
+  position: relative;
+  text-align: center; }
+  .menu-social li {
+    display: inline-block;
+    list-style: none; }
+
+.googleP:hover {
+  color: #D62223; }
+
+.skype:hover {
+  color: #00AAF1; }
+
+.twitter:hover {
+  color: #18C5FF; }
+
+.youtube:hover {
+  color: #EE1C1B; }
+
+.instagram:hover {
+  color: #9B6850; }
+
+.pie-texto {
+  color: #797877; }
+
+.fm:hover {
+  text-decoration: none; }
+
+/*  +++FIN CONTACTO+++  */
+/*  +++FORMULARIO+++  */
+.wrap {
+  background: #fff;
+  box-shadow: 0px 0px 3px grey;
+  margin: auto;
+  max-width: 500px;
+  padding: 40px;
+  width: 90%; }
+
+.contenedor-formulario {
+  color: #f2f2f2;
+  padding: 50px;
+  width: 100%; }
+  .contenedor-formulario .formulario {
+    margin: auto;
+    width: 100%; }
+    .contenedor-formulario .formulario .input-grupo {
+      margin-bottom: 32px;
+      position: relative; }
+      .contenedor-formulario .formulario .input-grupo input[type="text"],
+      .contenedor-formulario .formulario .input-grupo input[type="email"],
+      .contenedor-formulario .formulario .input-grupo input[type="password"],
+      .contenedor-formulario .formulario .input-grupo textarea {
+        background: none;
+        border: none;
+        border-bottom: 2px solid #BBDEFB;
+        color: #303F9F;
+        font-family: "Roboto", Arial;
+        font-size: 16px;
+        padding: 15px;
+        outline: none;
+        width: 100%; }
+        .contenedor-formulario .formulario .input-grupo input[type="text"]:focus, .contenedor-formulario .formulario .input-grupo input[type="text"]:active,
+        .contenedor-formulario .formulario .input-grupo input[type="email"]:focus,
+        .contenedor-formulario .formulario .input-grupo input[type="email"]:active,
+        .contenedor-formulario .formulario .input-grupo input[type="password"]:focus,
+        .contenedor-formulario .formulario .input-grupo input[type="password"]:active,
+        .contenedor-formulario .formulario .input-grupo textarea:focus,
+        .contenedor-formulario .formulario .input-grupo textarea:active {
+          border-bottom: 2px solid #303F9F;
+          outline: none; }
+        .contenedor-formulario .formulario .input-grupo input[type="text"].error,
+        .contenedor-formulario .formulario .input-grupo input[type="email"].error,
+        .contenedor-formulario .formulario .input-grupo input[type="password"].error,
+        .contenedor-formulario .formulario .input-grupo textarea.error {
+          border-bottom: 2px solid #D32F2F; }
+          .contenedor-formulario .formulario .input-grupo input[type="text"].error + label,
+          .contenedor-formulario .formulario .input-grupo input[type="email"].error + label,
+          .contenedor-formulario .formulario .input-grupo input[type="password"].error + label,
+          .contenedor-formulario .formulario .input-grupo textarea.error + label {
+            color: #D32F2F; }
+      .contenedor-formulario .formulario .input-grupo label {
+        color: #303F9F; }
+        .contenedor-formulario .formulario .input-grupo label.label {
+          font-size: 16px;
+          left: 0;
+          line-height: 16px;
+          margin-left: 16px;
+          position: absolute;
+          top: 16px;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+          .contenedor-formulario .formulario .input-grupo label.label.active {
+            color: #B6B6B6;
+            font-size: 12px;
+            line-height: 12px;
+            top: -12px; }
+      .contenedor-formulario .formulario .input-grupo.checkbox label, .contenedor-formulario .formulario .input-grupo.radio label {
+        border-radius: 3px;
+        color: #303F9F;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 1em;
+        position: relative;
+        padding: 5px 15px 5px 51px;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        .contenedor-formulario .formulario .input-grupo.checkbox label:hover, .contenedor-formulario .formulario .input-grupo.radio label:hover {
+          background: #bbdefb; }
+        .contenedor-formulario .formulario .input-grupo.checkbox label:before, .contenedor-formulario .formulario .input-grupo.radio label:before {
+          content: "";
+          background: none;
+          border: 2px solid #303F9F;
+          border-radius: 50%;
+          display: inline-block;
+          height: 17px;
+          left: 15px;
+          position: absolute;
+          width: 17px; }
+      .contenedor-formulario .formulario .input-grupo.error label {
+        color: #D32F2F; }
+        .contenedor-formulario .formulario .input-grupo.error label:hover {
+          background: rgba(211, 47, 47, 0.2); }
+        .contenedor-formulario .formulario .input-grupo.error label:before {
+          border: 2px solid #D32F2F; }
+      .contenedor-formulario .formulario .input-grupo.radio input[type="radio"] {
+        display: none; }
+        .contenedor-formulario .formulario .input-grupo.radio input[type="radio"]:checked + label:before {
+          display: none; }
+        .contenedor-formulario .formulario .input-grupo.radio input[type="radio"]:checked + label {
+          color: #f2f2f2;
+          background: #303F9F;
+          border-radius: 2px;
+          padding: 5px 15px; }
+      .contenedor-formulario .formulario .input-grupo.checkbox label:before {
+        border-radius: 3px; }
+      .contenedor-formulario .formulario .input-grupo.checkbox input[type="checkbox"] {
+        display: none; }
+        .contenedor-formulario .formulario .input-grupo.checkbox input[type="checkbox"]:checked + label:before {
+          display: none; }
+        .contenedor-formulario .formulario .input-grupo.checkbox input[type="checkbox"]:checked + label {
+          color: #f2f2f2;
+          background: #303F9F;
+          padding: 5px 15px; }
+    .contenedor-formulario .formulario input[type="submit"] {
+      color: #fff;
+      cursor: pointer;
+      background: #303F9F;
+      border-radius: 1px;
+      border: 2px solid #f2f2f2;
+      display: inline-block;
+      font-family: "Roboto", Arial;
+      font-size: 16px;
+      padding: 15px;
+      width: 100%;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+      .contenedor-formulario .formulario input[type="submit"]:hover {
+        background: #1976D2; }
+
+/*  +++FIN FORMULARIO+++  */
+/*  +++MEDIA-QUERY+++  */
+@media screen and (max-width: 1440px) {
+  /*  +++MENU NAVEGACION+++  */
+  .enlace {
+    letter-spacing: 2px;
+    word-space: 10px; }
+
+  /*  +++FIN MENU NAVEGACION+++  */ }
+@media screen and (max-width: 1280px) {
+  /*  +++MENU NAVEGACION+++  */
+  .enlace {
+    letter-spacing: 2px; }
+
+  /*  +++FIN MENU NAVEGACION+++  */ }
+@media screen and (max-width: 992px) {
+  /*  +++MENU NAVEGACION+++  */
+  .enlace {
+    letter-spacing: 0px;
+    word-space: 0px; }
+
+  /*  +++FIN MENU NAVEGACION+++  */
+  /*  +++SECCIONES+++  */
+  .titulo-seccion {
+    margin-top: 120px; }
+
+  /*  +++FIN SECCIONES+++  */
+  /*  +++SERVICIO+++  */
+  .servicio {
+    background-size: 100% 1000px; }
+
+  /*  +++FIN SERVICIO+++  */ }
+@media screen and (max-width: 768px) {
+  .linea-divisoria {
+    margin: 40px 0px; }
+
+  /*  +++MENU NAVEGACION+++  */
+  #titulo {
+    font-size: 16px; }
+
+  .enlace {
+    letter-spacing: 0px;
+    word-space: 0px; }
+
+  .nav > li > a {
+    padding: 10px 15px; }
+
+  /*  +++FIN MENU NAVEGACION+++  */
+  /*  +++CAROUSEL+++  */
+  .img-responsive {
+    height: 300px; }
+
+  /*  +++ FIN CAROUSEL+++  */
+  /*  +++SECCIONES+++  */
+  .titulo-seccion {
+    font-size: 40px;
+    margin-top: 55px; }
+
+  /*  +++FIN SECCIONES+++  */
+  /*  +++SERVICIO+++  */
+  .servicio {
+    background-size: 100% 700px; }
+
+  .titulo-serv {
+    margin-top: 80px; }
+
+  /*  +++FIN SERVICIO+++  */ }
+@media screen and (max-width: 320px) {
+  /*  +++MENU NAVEGACION+++  */
+  #titulo {
+    font-size: 14px; }
+
+  .enlace {
+    letter-spacing: 0px;
+    word-space: 0px; }
+
+  /*  +++FIN MENU NAVEGACION+++  */ }
+
+/*# sourceMappingURL=style.css.map */

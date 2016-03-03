@@ -1,0 +1,406 @@
+$borde: 2px
+$divider: #B6B6B6
+$error: #D32F2F
+$font-family: "Roboto", Arial
+$primary: #303F9F
+$light-primary: #BBDEFB
+$white: #f2f2f2
+
+*
+	margin: 0
+	padding: 0
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+
+.linea-divisoria
+	margin: 80px 0px
+
+b
+	//text-shadow: #D9D9D9 0px 0.5px 2px
+
+
+
+/*  +++MENU NAVEGACION+++  */
+#titulo
+	color: #966509
+	font: 24px Felix Titling, Baskerville Old Face
+	text-shadow: rgba(#adafb1, 1) 0px 2px 2px
+
+.enlace
+	color: #337AB7
+	font: 19px Calibri
+	letter-spacing: 0px
+	-ms-transition: all .3s ease /* IE */
+	-moz-transition: all .3s ease /* Firefox */
+	-o-transition: all .3s ease /* Opera */
+	-webkit-transition: all .3s ease /* Chrome y Safari */
+	transition: all .3s ease
+	word-space: 0px
+	&:hover
+		text-shadow: rgb(167, 167, 167) 0px 2px 2px
+
+.nav > li > a
+	display: block
+	padding: 10px 5px
+	position: relative
+
+.navbar-nav > li > a
+	padding-bottom: 15px
+	padding-top: 15px
+/*  +++FIN MENU NAVEGACION+++  */
+
+
+
+/*  +++CAROUSEL+++  */
+.img-responsive
+	width: 100%
+/*  +++FIN CAROUSEL+++  */
+
+
+
+/*  +++SECCIONES+++  */
+.titulo-seccion
+	font-size: 50px
+	margin-top: 120px
+	line-height: 1
+	letter-spacing: -1px
+	text-shadow: #7d7c7c 1px 1px 2px
+
+ul
+	.vineta
+		padding-bottom: 10px
+		text-align: justify
+
+.imagen
+	margin-top: 53px
+
+.imagen2
+	margin-top: 120px
+
+#vision
+	background: #E8EAFF fixed
+
+#values
+	background-color: #F3E4CE
+/*  +++FIN SECCIONES+++  */
+
+
+
+/*  +++SERVICIO+++  */
+.servicio
+	background: url(../images/aduana1.png) center no-repeat fixed
+	background-size: 100%
+
+.titulo-serv
+	font-size: 50px
+	letter-spacing: -1px
+	line-height: 1
+	margin-top: 120px
+	text-align: center
+	text-shadow: #7d7c7c 1px 1px 3px
+
+.sub-serv
+	text-align: center
+	text-shadow: #7d7c7c 1px 1px 3px
+
+.serv-01
+	float: left
+	padding-left: 15px
+	text-align: justify
+	width: 48%
+	ul
+		list-style: none
+
+.serv-02
+	float: right
+	padding-right: 15px
+	text-align: justify
+	width: 48%
+	ul
+		list-style: none
+		margin-left: 20px
+/*  +++FIN SERVICIO+++  */
+
+
+
+/*  +++CONTACTO+++  */
+.contacto
+	background: #001A33
+
+.titulo-contacto
+	color: #614B22
+	font-family: Felix Titling, Baskerville Old Face
+	font-weight: bolder
+	text-shadow: 1px 1px 2px #D9D9D9, 1px -1px 2px #D9D9D9, -1px -1px 2px #D9D9D9, -1px 1px 2px #D9D9D9
+	//text-shadow: #D9D9D9 0px 0.5px 2px
+	//text-shadow: #DFDFDF -1px -1px 0
+
+.subtitulo-contacto
+	color: #004284
+	font-weight: bolder
+	text-shadow: 1px 1px 2px #FFF, 1px -1px 2px #FFF, -1px -1px 2px #FFF, -1px 1px 2px #FFF
+	//text-shadow: #FFF 0px 0.5px 2px
+	//text-shadow: #FFF -1px -1px 2px
+	//text-shadow: #D9D9D9 1px 1px
+	
+.text-cont
+	color: white
+
+footer
+	background: #022140
+	text-align: center
+
+/*  MENU SOCIAL  */
+.menu-social
+	margin-top: 20px
+	padding-left: 0px
+	position: relative
+	text-align: center
+	li
+		display: inline-block
+		list-style: none
+
+.googleP
+	&:hover
+		color: #D62223
+
+.skype
+	&:hover
+		color: #00AAF1
+
+.twitter
+	&:hover
+		color: #18C5FF
+
+.youtube
+	&:hover
+		color: #EE1C1B
+
+.instagram
+	&:hover
+		color: #9B6850
+
+.pie-texto
+	color: #797877
+
+.fm
+	&:hover
+		text-decoration: none
+/*  +++FIN CONTACTO+++  */
+
+
+
+/*  +++FORMULARIO+++  */
+.wrap
+	background: #fff
+	box-shadow: 0px 0px 3px grey
+	margin: auto
+	max-width: 500px
+	padding: 40px
+	width: 90%
+
+.contenedor-formulario
+	color: $white
+	padding: 50px
+	width: 100%
+	.formulario
+		margin: auto
+		width: 100%
+		.input-grupo
+			margin-bottom: 32px
+			position: relative
+			// background: rgba(#ccc, .2)
+			input[type="text"],
+			input[type="email"],
+			input[type="password"],
+			textarea
+				background: none
+				border: none
+				border-bottom: $borde solid $light-primary
+				color: $primary
+				font-family: $font-family
+				font-size: 16px
+				padding: 15px
+				outline: none
+				width: 100%
+				&:focus,
+				&:active
+					border-bottom: $borde solid $primary
+					outline: none
+				&.error
+					border-bottom: $borde solid $error
+					+ label
+						color: $error
+			label
+				color: $primary
+				&.label
+					font-size: 16px
+					left: 0
+					line-height: 16px
+					margin-left: 16px
+					position: absolute
+					top: 16px
+					-webkit-transition: all .3s ease
+					-o-transition: all .3s ease
+					transition: all .3s ease
+					&.active
+						color: $divider
+						font-size: 12px
+						line-height: 12px
+						top: -12px
+			&.checkbox label,
+			&.radio label
+				border-radius: 3px
+				color: $primary
+				cursor: pointer
+				display: inline-block
+				font-size: 1em
+				position: relative
+				padding: 5px 15px 5px 51px
+				-webkit-transition: all .3s ease
+				-o-transition: all .3s ease
+				transition: all .3s ease
+				&:hover
+					background: rgba($light-primary, 1)
+				&:before
+					content: ""
+					background: none
+					border: $borde solid $primary
+					border-radius: 50%
+					display: inline-block
+					height: 17px
+					left: 15px
+					position: absolute
+					width: 17px
+			// Clase de error para Checkbox y Radio
+			&.error
+				label
+					color: $error
+					&:hover
+						background: rgba($error, .2)
+					&:before
+						border: $borde solid $error
+			&.radio
+				input[type="radio"]
+					display: none
+					&:checked + label:before
+						display: none
+					&:checked + label
+						color: $white
+						background: $primary
+						border-radius: $borde
+						padding: 5px 15px
+			&.checkbox
+				label:before 
+					border-radius: 3px
+				input[type="checkbox"]
+					display: none
+					&:checked + label:before
+						display: none
+					&:checked + label
+						color: $white
+						background: $primary
+						padding: 5px 15px
+		input[type="submit"]
+			color: #fff
+			cursor: pointer
+			background: $primary
+			border-radius: 1px
+			border: $borde solid $white
+			display: inline-block
+			font-family: $font-family
+			font-size: 16px
+			padding: 15px
+			width: 100%
+			-webkit-transition: all .3s ease
+			-o-transition: all .3s ease
+			transition: all .3s ease
+			&:hover
+				background: #1976D2
+/*  +++FIN FORMULARIO+++  */
+
+
+
+/*  +++MEDIA-QUERY+++  */
+@media screen and (max-width: 1440px)
+	/*  +++MENU NAVEGACION+++  */
+	.enlace
+		letter-spacing: 2px
+		word-space: 10px
+	/*  +++FIN MENU NAVEGACION+++  */
+
+
+@media screen and (max-width: 1280px)
+	/*  +++MENU NAVEGACION+++  */
+	.enlace
+		letter-spacing: 2px
+	/*  +++FIN MENU NAVEGACION+++  */
+
+
+@media screen and (max-width: 992px)
+	/*  +++MENU NAVEGACION+++  */
+	.enlace
+		letter-spacing: 0px
+		word-space: 0px
+	/*  +++FIN MENU NAVEGACION+++  */
+
+	/*  +++SECCIONES+++  */
+	.titulo-seccion
+		margin-top: 120px
+	/*  +++FIN SECCIONES+++  */
+
+	/*  +++SERVICIO+++  */
+	.servicio
+		background-size: 100% 1000px
+	/*  +++FIN SERVICIO+++  */
+
+
+@media screen and (max-width: 768px)
+	.linea-divisoria
+		margin: 40px 0px
+
+	/*  +++MENU NAVEGACION+++  */
+	#titulo
+		font-size: 16px
+
+	.enlace
+		letter-spacing: 0px
+		word-space: 0px
+
+	.nav > li > a
+		padding: 10px 15px
+	/*  +++FIN MENU NAVEGACION+++  */
+	
+
+	/*  +++CAROUSEL+++  */
+	.img-responsive
+		height: 300px
+	/*  +++ FIN CAROUSEL+++  */
+
+
+	/*  +++SECCIONES+++  */
+	.titulo-seccion
+		font-size: 40px
+		margin-top: 55px
+	/*  +++FIN SECCIONES+++  */
+	
+
+	/*  +++SERVICIO+++  */
+	.servicio
+		background-size: 100% 700px
+
+	.titulo-serv
+		margin-top: 80px
+	/*  +++FIN SERVICIO+++  */
+
+
+@media screen and (max-width: 320px)
+	/*  +++MENU NAVEGACION+++  */
+	#titulo
+		font-size: 14px
+
+	.enlace
+		letter-spacing: 0px
+		word-space: 0px
+	/*  +++FIN MENU NAVEGACION+++  */
